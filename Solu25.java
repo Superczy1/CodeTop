@@ -1,7 +1,7 @@
 package CodeTop;
 
 public class Solu25 {
-    //反转k链表
+    //25 反转k链表
     public static ListNode reverseKGroup(ListNode head, int k) {
         if (k == 1)
             return head;
