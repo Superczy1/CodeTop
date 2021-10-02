@@ -7,7 +7,7 @@ public class test {
     public static void main(String[] args) {
         test206();
     }
-    //k 个一组反转链表
+    //25 k 个一组反转链表
     public static void test25(){
         ListNode head = new ListNode(0);
         ListNode p = head;
