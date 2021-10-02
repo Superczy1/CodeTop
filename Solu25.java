@@ -36,18 +36,6 @@ public class Solu25 {
         }
         return new ListNode[]{pre, head};
     }
-
-    public static void main(String[] args) {
-        ListNode head = new ListNode(0);
-        ListNode p = head;
-        for (int i = 0; i < 8; i++) {
-            ListNode n = new ListNode(i + 1);
-            p.next = n;
-            p = p.next;
-        }
-        head = reverseKGroup(head.next, 3);
-        System.out.println();
-    }
 }
 
 class ListNode {
