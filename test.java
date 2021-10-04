@@ -5,7 +5,7 @@ import static CodeTop.Solu25.reverseKGroup;
 
 public class test {
     public static void main(String[] args) {
-        test206();
+        test146();
     }
     //25 k 个一组反转链表
     public static void test25(){
@@ -30,5 +30,16 @@ public class test {
         }
         head = reverseList(head.next);
         System.out.println();
+    }
+    //LRU
+    public static void test146(){
+        LRUCache cache = new LRUCache(2);
+        System.out.println(cache.get(2));
+        cache.put(2,6);
+        System.out.println(cache.get(1));
+        cache.put(1,5);
+        cache.put(1,2);
+        System.out.println(cache.get(1));
+        System.out.println(cache.get(2));
     }
 }
